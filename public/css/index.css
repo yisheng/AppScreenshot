@@ -1,0 +1,43 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: DINPro-Regular;
+}
+
+.container {
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 10px;
+  height: 400px;
+  width: 100%;
+}
+
+.title p {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin: 0;
+  padding: 0 30px;
+}
+
+.screenshot {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 890px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}

@@ -1,14 +1,26 @@
 <html>
   <head>
     <title>App Screenshot</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/index.css">
     <style>
-      body {
-        margin: 0;
+      .container {
+        width: <%= config.width %>;
+      }
+
+      .title p {
+        width: <%= config.width %>;
       }
     </style>
   </head>
 
   <body>
-    <img src="<%= imagePath %>/origin.png" />
+    <div class="container">
+      <div class="title">
+        <p>The Best Guide The Best Guide The Best Guide The Best Guide</p>
+      </div>
+      <img src="/images/bg-<%= query.device %>.png" />
+      <img class="screenshot" src="/images/<%= config.name %>/<%= query.device %>/<%= query.index %>.png" />
+    </div>
   </body>
 </html>

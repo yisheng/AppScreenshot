@@ -3,6 +3,7 @@
 var fs = require('fs')
 var url = require('url')
 var express = require('express')
+var _ = require('underscore')
 var app = express()
 
 app.use(express.static('public'))
@@ -14,14 +15,17 @@ var config = {
 
   },
   '5.5': {
-
+    'width': '1242px',
+    'height': '',
   }
 }
 
 app.get('/', (req, res) => {
   var query = url.parse(req.url, true).query
+  var appConfig = require('./public/images/' + query.app + '/config.json')
   res.render('index', {
-    imagePath: '/images/' + query.device + '/'
+    query: query,
+    config: _.extend(config[query.device], appConfig)
   })
 })
 

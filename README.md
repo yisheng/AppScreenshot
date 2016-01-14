@@ -1,2 +1,2 @@
-# AppScreenshot
-Auto generate app screenshot for App Store &amp; Google Play
+# App Screenshot Generator
+Auto generate app screenshot for App Store & Google Play

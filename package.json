@@ -1,0 +1,23 @@
+{
+  "name": "app-screenshot",
+  "version": "1.0.0",
+  "description": "Auto generate app screenshot for App Store & Google Play",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yisheng/AppScreenshot.git"
+  },
+  "author": "yisheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yisheng/AppScreenshot/issues"
+  },
+  "homepage": "https://github.com/yisheng/AppScreenshot#readme",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3"
+  }
+}

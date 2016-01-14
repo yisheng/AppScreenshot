@@ -29,5 +29,8 @@ node_modules
 # Build
 build
 
-public/images/*/*
+# Source screenshots
+public/images/*
 !public/images/bg-*.png
+!public/images/Sample
+public/images/Sample/**/.DS_Store

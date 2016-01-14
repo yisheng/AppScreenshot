@@ -37,7 +37,7 @@ body {
   position: absolute;
   left: 50%;
   bottom: 0;
-  width: 890px;
+  width: 100px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }

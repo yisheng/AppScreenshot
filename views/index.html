@@ -11,13 +11,25 @@
       .title p {
         width: <%= config.width %>;
       }
+
+      .screenshot {
+        width: <%= config.screenshotWidth %>;
+      }
+
+      .title {
+        height: <%= config.titleHeight %>;
+      }
+
+      .title p {
+        font-size: <%= config.fontSize %>;
+      }
     </style>
   </head>
 
   <body>
     <div class="container">
       <div class="title">
-        <p>The Best Guide The Best Guide The Best Guide The Best Guide</p>
+        <p><%= config['title-' + query.index] %></p>
       </div>
       <img src="/images/bg-<%= query.device %>.png" />
       <img class="screenshot" src="/images/<%= config.name %>/<%= query.device %>/<%= query.index %>.png" />

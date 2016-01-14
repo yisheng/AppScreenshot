@@ -12,11 +12,34 @@ app.set('view engine', 'html')
 
 var config = {
   '3.5': {
-
+    width: '640px',
+    screenshotWidth: '440px',
+    titleHeight: '150px',
+    fontSize: '40px'
+  },
+  '4': {
+    width: '640px',
+    screenshotWidth: '459px',
+    titleHeight: '200px',
+    fontSize: '40px'
+  },
+  '4.7': {
+    width: '750px',
+    screenshotWidth: '537px',
+    titleHeight: '240px',
+    fontSize: '45px'
   },
   '5.5': {
-    'width': '1242px',
-    'height': '',
+    width: '1242px',
+    screenshotWidth: '890px',
+    titleHeight: '390px',
+    fontSize: '80px'
+  },
+  'android': {
+    width: '1242px',
+    screenshotWidth: '890px',
+    titleHeight: '390px',
+    fontSize: '80px'
   }
 }
 

@@ -1,6 +1,8 @@
 # App Screenshot Generator
 
-Auto generate app screenshot for App Store & Google Play. Support all the size required:
+Auto generate app screenshot for App Store & Google Play.
+
+Support sizes supported:
 
 - `3.5'`: iPhone 4/4S
 - `4'`: iPhone 5/5S
@@ -17,6 +19,8 @@ Auto generate app screenshot for App Store & Google Play. Support all the size r
 2. Install dependencies by `npm install`
 3. Run the web service by `node app.js`
 4. Generate beautiful screenshots by `sh build.sh YOUR_APP_NAME`
+
+Checkout the sample folder `/public/images/Sample`.
 
 # TODO
 

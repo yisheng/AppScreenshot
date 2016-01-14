@@ -9,7 +9,7 @@ Auto generate app screenshot for App Store & Google Play. Support all the size r
 
 # Preview
 
-
+![Sample Preview](assets/sample.png)
 
 # How to use
 

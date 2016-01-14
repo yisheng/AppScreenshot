@@ -38,7 +38,7 @@ var config = {
   'android': {
     width: '1242px',
     screenshotWidth: '890px',
-    titleHeight: '390px',
+    titleHeight: '470px',
     fontSize: '80px'
   }
 }

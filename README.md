@@ -15,7 +15,7 @@ Support sizes supported:
 
 # How it works
 
-This project consists of three parts:
+This project consists of 3 parts:
 
 1. The NodeJS web service who hosts styled app screenshots
 2. [PhantomJS](http://phantomjs.org/) who captures the styled app screenshots to png files

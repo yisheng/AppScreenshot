@@ -23,13 +23,22 @@ This project consists of 3 parts:
 
 # How to use
 
-1. Capture screenshots of your app
-2. Setup `config.json`
+> Checkout the sample folder in `public/images/Sample`.
+
+1. Capture screenshots of your app, and copy them to `public/images/`
+2. Setup titles in `config.json`
 3. Install dependencies by `npm install`
 4. Run the web service by `node app.js`
 5. Generate beautiful screenshots by `sh build.sh YOUR_APP_NAME`
 
-Checkout the sample folder `/public/images/Sample`.
+# Sample
+
+> To try this sample, you should run `node app.js` first
+
+- Path: `public/images/Sample`
+- Preview styled screenshots: `http://localhost:3000/?app=Sample&device=5.5&index=1` (Of couse, you could change `device` and `index`)
+- Generate styled screenshots: `sh build.sh Sample`
+
 
 # TODO
 

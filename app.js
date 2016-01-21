@@ -2,6 +2,7 @@
 
 var fs = require('fs')
 var url = require('url')
+var chalk = require('chalk')
 var express = require('express')
 var _ = require('underscore')
 var app = express()
@@ -53,3 +54,6 @@ app.get('/', (req, res) => {
 })
 
 app.listen(3000)
+
+console.log('NodeJS web service is running...')
+console.log('Next step: Run ' + chalk.magenta('sh build.sh YOUR_APP_NAME') + ' to generate your styled screenshot.')
